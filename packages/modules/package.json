@@ -1,7 +1,7 @@
 {
   "name": "@repo/modules",
   "version": "1.0.0",
-  "description": "",
+  "description": "Core modules and utilities for the @repo project.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "keywords": [],
