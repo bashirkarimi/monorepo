@@ -1,6 +1,7 @@
 "use client";
 
-import { ReactNode } from "react";
+import {ReactNode} from "react";
+
 
 interface ButtonProps {
   children: ReactNode;
@@ -8,7 +9,7 @@ interface ButtonProps {
   appName: string;
 }
 
-export const Button = ({ children, className, appName }: ButtonProps) => {
+const Button = ({children, className, appName}: ButtonProps) => {
   return (
     <button
       className={className}
@@ -18,3 +19,5 @@ export const Button = ({ children, className, appName }: ButtonProps) => {
     </button>
   );
 };
+
+export {Button};
